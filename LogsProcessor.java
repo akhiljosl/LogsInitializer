@@ -24,7 +24,7 @@ public class LogsProcessor {
 	 */
 	public void fetchFileContent() throws FileNotFoundException {
 		// Open the file
-		FileInputStream fstream = new FileInputStream("C:\\Users\\Joshi\\Desktop\\updated.txt");
+		FileInputStream fstream = new FileInputStream("C:\\Users\\Joshi\\Desktop\\logfile.txt");
 		BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
 		String strLine;
 		List<SingleRowDescription> loggerLines = new ArrayList<>();
